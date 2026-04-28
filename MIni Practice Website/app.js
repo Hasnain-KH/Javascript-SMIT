@@ -1,6 +1,6 @@
 let mehran = {
     name: "mehran",
-    ima:  "car.webp",
+    ima: "car.webp",
     model: 2025,
     price: 300000,
     color: "White",
@@ -11,11 +11,6 @@ let mehran = {
 
 let ima = document.getElementById("carming");
 ima.src = ...  "carming"
-
-
- 
-
-
 
 let cultus = {
     name: "cultus",
@@ -69,7 +64,7 @@ let Honda = {
     condition: "Good"
 }
 
-let onetwofive= {
+let onetwofive = {
     name: "onetwofive",
     model: 2026,
     price: 200000,

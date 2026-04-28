@@ -1,74 +1,76 @@
-alert("Error! please enter your valid password.");
+// alert("Error! please enter your valid password.");
 
-alert("Well come JS Land...\nHappy  Coding!");
+// alert("Well come JS Land...\nHappy  Coding!");
 
-alert("Well come JS Land");
+// alert("Hi My name muhammad hasnain Riaz and I am from \n karachi");
 
-alert("Happy Coding\nPrevent this page from creating additional dialogs.");
+// alert("Well come JS Land");
 
-alert("Hello...I can run JS through my web browser's console");
+// alert("Happy Coding\nPrevent this page from creating additional dialogs.");
 
-var username = ("Ali");
+// alert("Hello...I can run JS through my web browser's console");
 
-var myname = ("ahmed");
+// var username = ("Ali");
 
-var fullname = ("Ali Ahmed");
+// var myname = ("ahmed");
 
-var  titlemessege = ("Hello Worl");
+// var fullname = ("Ali Ahmed");
 
-alert("Hello Worl");
+// var  titlemessege = ("Hello Worl");
 
-var pizza = ("Pizza \n Pizza");
-alert("pizza");
+// alert("Hello Worl");
 
-var email = ("email hasnain.com");
-alert("email");
+// var pizza = ("Pizza \n Pizza");
+// alert(pizza);
 
-var book = ("A smarter way to learn Javascript");
-alert(book);
+// var email = ("email hasnain.com");
+// alert(email);
 
-document.write("Yah! I can write HTML content through Javascript");
+// var book = ("A smarter way to learn Javascript");
+// alert(book);
 
-var hasnain = ("Yah! I can write HTML content through Javascript");
-alert(hasnain);
-document.write(hasnain);
+// document.write("Yah! I can write HTML content through Javascript");
 
-var nine = ("--------#######_--------");
+// var hasnain = ("Yah! I can write HTML content through Javascript");
+// alert(hasnain);
+// document.write(hasnain);
 
-alert(nine);
+// var nine = ("--------#######_--------");
 
-// pdf 3
+// alert(nine);
 
-var age = ("I am teenager");
+// // pdf 3
 
-alert(age);
+// var age = ("I am teenager");
 
-var birth_year = (" my birth year is2010");
+// alert(age);
 
-alert(birth_year);
+// var birth_year = (" my birth year is2010");
 
-var client = ("hasnain 5 T-Shirt  Raza clothing store");
+// alert(birth_year);
 
-document.write(client);
+// var client = ("hasnain 5 T-Shirt  Raza clothing store");
 
-// pdf 04;
+// document.write(client);
+
+// // pdf 04;
 
 
-var rules = ("Rules for naming JS variables");
+// var rules = ("Rules for naming JS variables");
 
-document.write(rules);
+// document.write(rules);
 
-var one = ("variable names can only contain ,numbers,$and_ . For examples : $my_1st Variable ");
+// var one = ("variable names can only contain ,numbers,$and_ . For examples : $my_1st Variable ");
 
-document.write("one");
+// document.write(one);
 
-var three = ("Variable must begin with a letter, $ or_ .For examples:$name,_name or name");
+// var three = ("Variable must begin with a letter, $ or_ .For examples:$name,_name or name");
 
-document.write("three");
+// document.write(three);
 
-var place = ("Variable name are case sensitive");
+// var place = ("Variable name are case sensitive");
 
-document.write("place");
+// document.write(place);
 
 
 
