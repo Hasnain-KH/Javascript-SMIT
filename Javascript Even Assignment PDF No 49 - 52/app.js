@@ -19,5 +19,22 @@ btn.addEventListener("click", function (ev) {
     Email : ${input2.value} <br>
     Password : ${input3.value} <br  >
     `
+})
+
+// Task No : 2
+
+let readmore = document.querySelector("#readmore");
+let h1 = document.querySelector("#h1");
+h1.style.display = "none";
+
+readmore.addEventListener("click", function () {
+    if (h1.style.display === "none") {
+        h1.style.display = "block";
+        readmore.innerText = "less More"
+    }
+    else {
+        h1.style.display = "none";
+        readmore.innerText = "Read More"
+    }
 
 })
