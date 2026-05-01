@@ -65,21 +65,19 @@ let inp1 = document.querySelector("#inp1");
 let inp2 = document.querySelector("#inp2");
 let inp3 = document.querySelector("#inp3");
 let inp4 = document.querySelector("#inp4");
+let inp5 = document.querySelector("#inp5");
 
-let btn2 = document.querySelector("#btn2");
+let form = document.querySelector("form");
 
-// 1. Function mein 'event' pass karein
-btn2.addEventListener("click", function (event) {
+form.addEventListener("submit", function (event) {
 
-    // 2. Event par preventDefault lagayein
     event.preventDefault();
 
     let div = document.createElement("div");
     div.classList.add("div");
 
-    // 3. Template literal mein variables sahi karein (aapne sab mein inp1 likha tha)
     div.innerHTML = `
-        <p>Name : ${inp1.value}
+        <p>sName : ${inp1.value}
         <button class = "del">Del</button>
         <button class = "edit">Edit</button>
         </p>
@@ -95,9 +93,27 @@ btn2.addEventListener("click", function (event) {
         <button class = "del">Del</button>
         <button class = "edit">Edit</button>
         </p>
-    `;
+        <p>Phone Number : ${inp5.value}
+        <button class = "del">Del</button>
+        <button class = "edit">Edit</button>
+        </p>
 
-    // 4. document.write ki jagah appendChild use karein
+    `;
     document.body.appendChild(div);
+
+
+    div.addEventListener("click", function (e) {
+        if (e.target.classList.contains("del")) {
+            let item = e.target.parentElement;
+            item.remove();
+        }
+
+        if (e.target.classList.contains("edit")) {
+            let getitem = e.target.parentElement;
+            console.log(getitem.innerText);
+
+        }
+    })
 });
+
 
