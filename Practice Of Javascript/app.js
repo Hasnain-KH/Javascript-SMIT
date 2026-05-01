@@ -1,13 +1,9 @@
-//
 // var arr = ['karach', 'lahore', 'multan', 'pindi']
 // console.log(arr.join(" ? "));
 
 
 // var arr = ['hasnain', 'sufyan', 'ayan', 'ali']
 // console.log(arr.join(" - "));
-
-// var ayan = ['java', 'html', 'css']
-// console.log(ayan.split(" - "));
 
 // var hasnain = ['karachi', 'lahore', 'multan', 'pindi',]
 // console.log(hasnain.join(' '));
@@ -31,9 +27,9 @@
 
 // var ali = ['azam', 'khan', 'dada', 'zero'];
 // console.log(ali);
-// var ali = ['azam', 'khan', 'dada', 'zero'];
-// ali.unshift('hasain');
-// console.log(ali);
+var ali = ['azam', 'khan', 'dada', 'zero'];
+ali.unshift('hasain');
+console.log(ali);
 
 // var ali = ['azam', 'ayan', 'sami', 'tahir'];
 // console.log(ali);

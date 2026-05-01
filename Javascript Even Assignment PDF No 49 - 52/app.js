@@ -1,40 +1,103 @@
 // Events Assignment //
 
 
-let input1 = document.querySelector("#input1");
-let input2 = document.querySelector("#input2");
-let input3 = document.querySelector("#input3");
-
-let btn = document.querySelector("#btn");
+// let btn = document.querySelector("#btn");
 
 
-btn.addEventListener("click", function (ev) {
-    ev.preventDefault();
-    let div = document.createElement("div");
-    div.classList.add("div");
-    document.body.append(div)
+// btn.addEventListener("click", function (ev) {
+//     ev.preventDefault();
+//     let div = document.createElement("div");
+//     div.classList.add("div");
+//     document.body.append(div)
 
-    div.innerHTML = `
-    Name : ${input1.value} <br>
-    Email : ${input2.value} <br>
-    Password : ${input3.value} <br  >
-    `
-})
+//     div.innerHTML = `
+//     Name : ${input1.value} <br>
+//     Email : ${input2.value} <br>
+//     Password : ${input3.value} <br  >
+//     `
+// })
 
 // Task No : 2
 
-let readmore = document.querySelector("#readmore");
-let h1 = document.querySelector("#h1");
-h1.style.display = "none";
+// let readmore = document.querySelector("#readmore");
+// let h1 = document.querySelector("#h1");
+// h1.style.display = "none";
 
-readmore.addEventListener("click", function () {
-    if (h1.style.display === "none") {
-        h1.style.display = "block";
-        readmore.innerText = "less More"
-    }
-    else {
-        h1.style.display = "none";
-        readmore.innerText = "Read More"
-    }
+// readmore.addEventListener("click", function () {
+//     if (h1.style.display === "none") {
+//         h1.style.display = "block";
+//         readmore.innerText = "less More"
+//     }
+//     else {
+//         h1.style.display = "none";
+//         readmore.innerText = "Read More"
+//     }
 
-})
+// })
+
+// let inp1 = document.querySelector("#inp1");
+// let inp2 = document.querySelector("#inp2");
+// let inp3 = document.querySelector("#inp3");
+// let inp4 = document.querySelector("#inp4");
+// let inp5 = document.querySelector("#inp5");
+
+// let btn = document.querySelector("#btn");
+
+// btn.addEventListener("click", function (event) {
+
+//     event.preventDefault();
+
+//     let div = document.createElement("div");
+//     div.classList.add("div");
+//     div.innerHTML = `
+//     <p>Name : ${inp1.value}</p>
+//     <p>Father'sName : ${inp2.value}</p>
+//     <p>Email : ${inp3.value}</p>
+//     <p>Phone Number : ${inp4.value}</p>
+//     <p>Roll Number : ${inp5.value}</p>
+//     `
+//     document.body.appendChild(div);
+// })
+
+
+
+let inp1 = document.querySelector("#inp1");
+let inp2 = document.querySelector("#inp2");
+let inp3 = document.querySelector("#inp3");
+let inp4 = document.querySelector("#inp4");
+
+let btn2 = document.querySelector("#btn2");
+
+// 1. Function mein 'event' pass karein
+btn2.addEventListener("click", function (event) {
+
+    // 2. Event par preventDefault lagayein
+    event.preventDefault();
+
+    let div = document.createElement("div");
+    div.classList.add("div");
+
+    // 3. Template literal mein variables sahi karein (aapne sab mein inp1 likha tha)
+    div.innerHTML = `
+        <p>Name : ${inp1.value}
+        <button class = "del">Del</button>
+        <button class = "edit">Edit</button>
+        </p>
+        <p>Father's Name : ${inp2.value}
+        <button class = "del">Del</button>
+        <button class = "edit">Edit</button>
+        </p>
+        <p>Email : ${inp3.value}
+        <button class = "del">Del</button>
+        <button class = "edit">Edit</button>
+        </p>
+        <p>Phone Number : ${inp4.value}
+        <button class = "del">Del</button>
+        <button class = "edit">Edit</button>
+        </p>
+    `;
+
+    // 4. document.write ki jagah appendChild use karein
+    document.body.appendChild(div);
+});
+

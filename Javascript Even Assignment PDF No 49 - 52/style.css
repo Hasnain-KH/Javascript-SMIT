@@ -11,6 +11,7 @@ body {
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: grey;
@@ -31,14 +32,14 @@ input {
   font-size: 30px;
   border-radius: 30px;
 }
-button {
+/* button {
   font-size: 20px;
   width: 120px;
   height: 40px;
   border-radius: 10px;
   margin-top: 70px;
   margin-left: 130px;
-}
+} */
 
 .div {
   font-size: 30px;
@@ -51,4 +52,41 @@ button {
 #readmore {
   width: 70%;
   margin-top: 0px;
+}
+
+.div {
+  border-radius: 20px;
+  gap: 10px;
+  width: auto;
+  height: auto;
+  background-color: rgb(220, 206, 206);
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.del {
+  width: 50px;
+  height: 33px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.del:hover {
+  background-color: rgb(230, 217, 217);
+}
+
+.edit {
+  width: 50px;
+  height: 33px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.edit:hover {
+  background-color: rgb(230, 217, 217);
 }
